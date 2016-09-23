@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="kg.taptap.android.activity.LoginActivity">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/login_fragment"
+        android:name="kg.taptap.android.fragment.LoginFragment"
+        tools:layout="@layout/fragment_login"/>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/verify_fragment"
+        android:name="kg.taptap.android.fragment.VerifyFragment"
+        tools:layout="@layout/fragment_login"/>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/success_fragment"
+        android:name="kg.taptap.android.fragment.SuccessFragment"
+        tools:layout="@layout/fragment_login"/>
+
+</LinearLayout>
